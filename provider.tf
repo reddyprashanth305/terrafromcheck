@@ -1,7 +1,5 @@
 provider "aws"{
   region = "ap-south-1"  
-  access_key = "AKIA4WK52ROVNWFAL5AG"
-  secret_key = "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"
 }
   resource "aws_vpc" "kubernetes"{
   cidr_block = var.vpc_cidr
